@@ -5,8 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
+    "start": "npx nodemon server.js",
+    "watch": "npx nodemon server.js",
+    "schema": "node db/index.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
@@ -17,9 +18,14 @@
   "author": "Brad Kelley",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.22.5"
   },
   "dependencies": {
+    "nodemon": "^2.0.3",
     "dotenv": "^8.6.0",
     "express": "^4.17.3",
     "mysql2": "^2.3.3",

@@ -1,14 +1,10 @@
 const router = require('express').Router();
 const sequelize = require('../../config/connection');
 const { Category, Product } = require('../../models');
-// const { rawAttributes } = require('../../models/Product');
-// // const { findAll } = require('../../models/Product');
 
-// The `/api/categories` endpoint
 
+// GET all categories.
 router.get('/', (req, res) => {
-  // find all categories
-  // be sure to include its associated Products
   Category.findAll(
     {
       model: Category,
@@ -31,9 +27,9 @@ router.get('/', (req, res) => {
     });
 })
 
+
+// GET a single category by id.
 router.get('/:id', (req, res) => {
-  // find one category by its `id` value
-  // be sure to include its associated Products
   Category.findOne(
     {
       model: Category,
@@ -60,8 +56,9 @@ router.get('/:id', (req, res) => {
     });
 });
 
+
+// POST a new category.
 router.post('/', (req, res) => {
-  // create a new category
   Category.create({
     category_name: req.body.category_name,
   })
@@ -72,6 +69,8 @@ router.post('/', (req, res) => {
     });
 });
 
+
+// PUT (update) a category.
 router.put('/:id', (req, res) => {
   Category.update(
     {
@@ -96,8 +95,7 @@ router.put('/:id', (req, res) => {
 })
 
 
-
-
+// DELETE a category by id.
 router.delete('/:id', (req, res) => {
   Category.destroy({
     where: {

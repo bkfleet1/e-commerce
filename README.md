@@ -9,7 +9,7 @@ An e-commerce backend using Express, MySQL, Sequelize, MySQL2, and dotenv to pro
 >> ![E-Commerce Repository](./assets/images/repository.png)
 
 >> - Walkthrough Video: https://drive.google.com/file/d/1OVvlemoslQ-Q558LiSHs0AX6QbZ7C76e/view
-<iframe src="https://drive.google.com/file/d/1OVvlemoslQ-Q558LiSHs0AX6QbZ7C76e/preview" width="640" height="480"></iframe>
+
 
 ## Table of Contents
 > - [Title](#title)

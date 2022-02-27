@@ -5,7 +5,7 @@ An e-commerce backend using Express, MySQL, Sequelize, MySQL2, and dotenv to pro
 
 ![Repository Size](https://img.shields.io/github/repo-size/bkfleet1/e-commerce?style=plastic)
 
->> - Project Repository URL: https://github.com/bkfleet1/e-commerce >> ![Employee Tracker repository](./assets/images/repository.png)
+>> - Project Repository URL: https://github.com/bkfleet1/e-commerce >> ![E-Commerce Repository](./assets/images/repository.png)
 
 >> - Walkthrough Video: https://drive.google.com/file/d/1GImfXCAZMB36lTb5ZFscPUs56FDXNmBB/view
 
